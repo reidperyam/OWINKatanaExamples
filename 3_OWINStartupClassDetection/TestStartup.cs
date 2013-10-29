@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup("Test",typeof(_3_OWINStartupClassDetection.TestStartup))]
+[assembly: OwinStartup("Test",typeof(OWINStartupClassDetection.TestStartup))]
 
-namespace _3_OWINStartupClassDetection
+namespace OWINStartupClassDetection
 {
     public class TestStartup
     {

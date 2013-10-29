@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using Nancy;
 
-namespace _8_BigKatana
+namespace BigKatana
 {
     public class HomeModule : NancyModule
     {

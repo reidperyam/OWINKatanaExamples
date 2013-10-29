@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(_4_KatanaWindowsAuth.Startup))]
+[assembly: OwinStartup(typeof(KatanaWindowsAuth.Startup))]
 
-namespace _4_KatanaWindowsAuth
+namespace KatanaWindowsAuth
 {
     /// <summary>
     /// Install-Package Microsoft.Owin.Host.SystemWeb -pre 

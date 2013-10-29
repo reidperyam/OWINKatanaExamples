@@ -4,9 +4,9 @@ using Microsoft.Owin;
 using Owin;
 using System.IO;
 
-[assembly: OwinStartup("Normal",typeof(_3_OWINStartupClassDetection.Startup))]
+[assembly: OwinStartup("Normal",typeof(OWINStartupClassDetection.Startup))]
 
-namespace _3_OWINStartupClassDetection
+namespace OWINStartupClassDetection
 {
     /// <summary>
     /// Install-Package Microsoft.Owin.Host.SystemWeb

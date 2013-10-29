@@ -7,9 +7,9 @@ using Nancy.Conventions;
 using Nancy.Owin;
 using System.Web.Http;
 
-[assembly: OwinStartup(typeof(_8_BigKatana.Startup))]
+[assembly: OwinStartup(typeof(BigKatana.Startup))]
 
-namespace _8_BigKatana
+namespace BigKatana
 {
     public class Startup
     {

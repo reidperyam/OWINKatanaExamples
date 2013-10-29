@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
-using _8_BigKatana.Model;
-using _8_BigKatana.Hubs;
+using BigKatana.Model;
+using BigKatana.Hubs;
 using Microsoft.AspNet.SignalR;
 
-namespace _8_BigKatana.api
+namespace BigKatana.api
 {
     public class BugsController : ApiController
     {

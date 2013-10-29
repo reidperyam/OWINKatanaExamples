@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(_2_SelfOWINHost.Startup))]
+[assembly: OwinStartup(typeof(SelfOWINHost.Startup))]
 
-namespace _2_SelfOWINHost
+namespace SelfOWINHost
 {
     /// <summary>
     /// Install-Package Microsoft.Owin.SelfHost -Pre

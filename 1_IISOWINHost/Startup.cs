@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(_1_IISOWINHost.Startup))]
+[assembly: OwinStartup(typeof(IISOWINHost.Startup))]
 
-namespace _1_IISOWINHost
+namespace IISOWINHost
 {
     /// <summary>
     /// install-package Microsoft.Owin.Host.SystemWeb –Pre

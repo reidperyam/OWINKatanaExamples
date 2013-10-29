@@ -7,7 +7,7 @@ using System.Diagnostics;
 using Microsoft.Owin;
 using Microsoft.Owin.Hosting;
 
-namespace _6_KatanaConsoleHost
+namespace KatanaConsoleHost
 {
     /// <summary>
     /// Install-Package Microsoft.Owin.SelfHost -Pre

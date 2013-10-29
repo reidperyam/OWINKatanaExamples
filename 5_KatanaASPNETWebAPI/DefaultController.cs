@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 
-namespace _5_KatanaASPNETWebAPI
+namespace KatanaASPNETWebAPI
 {
     public class DefaultController : ApiController
     {

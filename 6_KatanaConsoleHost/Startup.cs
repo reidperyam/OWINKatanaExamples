@@ -3,16 +3,19 @@ using System.Threading.Tasks;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(_6_KatanaConsoleHost.Startup))]
+[assembly: OwinStartup(typeof(KatanaConsoleHost.Startup))]
 
-namespace _6_KatanaConsoleHost
+namespace KatanaConsoleHost
 {
+    /// <summary>
+    /// Install-Package Microsoft.Owin.Diagnostics 
+    /// </summary>
     public class Startup
     {
         public void Configuration(IAppBuilder app)
         {
 
-
+            // Microsoft.Owin.Diagnostics allows for these guys:
 #if DEBUG
             app.UseErrorPage();
 #endif

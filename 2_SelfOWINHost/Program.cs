@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2_SelfOWINHost
+namespace SelfOWINHost
 {
     /// <summary>
     /// Install-Package Microsoft.Owin.SelfHost -Pre
