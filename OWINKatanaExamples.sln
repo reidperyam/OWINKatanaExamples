@@ -38,6 +38,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_OWINHostAndVisualStudioI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_KatanaLogging", "13_KatanaLogging\13_KatanaLogging.csproj", "{6C78916F-5B71-4039-B1D6-E0468AFDF8BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_NancyOwinTutorial", "15_NancyOwinTutorial\15_NancyOwinTutorial.csproj", "{129A7F99-C328-4A8F-9A32-F318C54B2140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_NancyOwinTutorial.Tests", "16_NancyOwinTutorialTesting\16_NancyOwinTutorial.Tests.csproj", "{A5D79C2A-ECF4-4FC5-B291-DC673A5A2F82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,6 +104,14 @@ Global
 		{6C78916F-5B71-4039-B1D6-E0468AFDF8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C78916F-5B71-4039-B1D6-E0468AFDF8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C78916F-5B71-4039-B1D6-E0468AFDF8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129A7F99-C328-4A8F-9A32-F318C54B2140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129A7F99-C328-4A8F-9A32-F318C54B2140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129A7F99-C328-4A8F-9A32-F318C54B2140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129A7F99-C328-4A8F-9A32-F318C54B2140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D79C2A-ECF4-4FC5-B291-DC673A5A2F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D79C2A-ECF4-4FC5-B291-DC673A5A2F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D79C2A-ECF4-4FC5-B291-DC673A5A2F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D79C2A-ECF4-4FC5-B291-DC673A5A2F82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
