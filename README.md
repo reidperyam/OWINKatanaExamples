@@ -92,5 +92,9 @@ Requires Visual Studio 2013
 18_OWINUseErrorPage
 
 	http://miso-soup3.hateblo.jp/entry/2013/10/30/205653
+	
+19_OWINNancyPassthrough
+
+	https://github.com/NancyFx/Nancy/wiki/Hosting-nancy-with-owin#conditional-pass-through
 
 
