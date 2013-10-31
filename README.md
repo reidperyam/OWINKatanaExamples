@@ -1,10 +1,10 @@
 OWINKatanaExamples
 ==================
 
-Visual Studio 2013 .sln containing .csprojs as exmaples of OWIN and Katana Usages
+Current count of example .csprojs: 18
 
-also showcases OWIN integration of NancyFx, SignalR, ASP.NET Web API Nancy's Ninject boostrapping, NancyFx testing
-some others too
+Visual Studio 2013 .sln showcasing OWIN/katana integration of NancyFx, SignalR, ASP.NET Web API Nancy's Ninject boostrapping, NancyFx testing
+some others too...
 
 My Implementations of OWIN/Katana/Nancy/Ninject/SignalR/ASP.NET Web API Integration Tutorials made public to aid others in learning OWIN and Katana
 If you would like to supplement these please let me know! 
