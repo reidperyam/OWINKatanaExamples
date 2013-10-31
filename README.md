@@ -12,12 +12,15 @@ If you would like to supplement these please let me know!
 Requires Visual Studio 2013
 
 1_IISOWINHost
+
 	http://www.asp.net/aspnet/overview/owin-and-katana/getting-started-with-owin-and-katana
 	
 2_SelfOWINHost
+
 	http://www.asp.net/aspnet/overview/owin-and-katana/getting-started-with-owin-and-katana
 
 3_OWINStartupClassDetection
+
 	(this outlines a manual invocation of OwinHost.exe made obsolete in Visual Studio 2013 -- as shown in further example .csprojs -eg #14)
 	http://www.asp.net/aspnet/overview/owin-and-katana/owin-startup-class-detection
 
