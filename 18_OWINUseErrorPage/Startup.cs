@@ -9,8 +9,10 @@ namespace OWINUseErrorPage
     {
         public void Configuration(IAppBuilder app)
         {
-
+// useful usage as a suggestion
+//#if DEBUG
             app.UseErrorPage();
+//#endif
             WelcomePageOptions options = new WelcomePageOptions();
             options.Path = new PathString("/welcome");
             app.UseWelcomePage(options);
@@ -24,9 +26,8 @@ namespace OWINUseErrorPage
                 }
 
                 context.Response.ContentType = "text/plain";
-                return context.Response.WriteAsync("Hello, world! Navigate to /welcome for happy blue thing navigate to /fail for katana error explosion output formating");
-            });
-            
+                return context.Response.WriteAsync("Hello, world! Navigate to /welcome for happy blue thing navigate to /fail for katana error explosion output formatting");
+            });       
         }
     }
 }
