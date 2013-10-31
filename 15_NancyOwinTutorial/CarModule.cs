@@ -11,6 +11,7 @@ namespace NancyOwinTutorial
     {
         private readonly ICarRepository _repository;
 
+        // this is a simple demonstration of constructor injection using Nancy's default injection...
         public CarModule(ICarRepository repository)
         {
             _repository = repository;
