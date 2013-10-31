@@ -1,1 +1,1 @@
-﻿This Project was not built from a tutorial but stumpled through by Reid
+﻿This Project was not built from a tutorial but stumbled through by Reid
