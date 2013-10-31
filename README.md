@@ -1,4 +1,4 @@
-OWINKatanaExamples
+OWIN Katana Examples
 ==================
 
 Current count of example .csprojs: 18
