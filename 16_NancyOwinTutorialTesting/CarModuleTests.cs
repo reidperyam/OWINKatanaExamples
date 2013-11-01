@@ -32,7 +32,7 @@ namespace NancyOwinTutorial.Tests
             // when
             var response = browser.Get("/car/123", with =>
             {
-                with.HttpRequest();
+                with.HttpRequest(); 
                 with.Header("accept", "application/xml");
             });
 

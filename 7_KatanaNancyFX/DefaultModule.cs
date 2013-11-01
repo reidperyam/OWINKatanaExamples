@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Nancy;
 
-namespace _7_KatanaNancyFX
+namespace KatanaNancyFX
 {
     /// <summary>
     /// A NancyModule is analagous to an ASP.NET controller. It's used by Nancy to bundle applications

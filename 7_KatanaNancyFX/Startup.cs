@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(_7_KatanaNancyFX.Startup))]
+[assembly: OwinStartup(typeof(KatanaNancyFX.Startup))]
 
-namespace _7_KatanaNancyFX
+namespace KatanaNancyFX
 {
     public class Startup
     {

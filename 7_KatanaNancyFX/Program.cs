@@ -7,7 +7,7 @@ using System.Diagnostics;
 using Microsoft.Owin;
 using Microsoft.Owin.Hosting;
 
-namespace _7_KatanaNancyFX
+namespace KatanaNancyFX
 {
     /// <summary>
     /// Install-Package Microsoft.Owin.SelfHost -Pre

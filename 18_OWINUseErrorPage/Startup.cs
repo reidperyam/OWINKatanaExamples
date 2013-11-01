@@ -2,17 +2,22 @@
 using Microsoft.Owin;
 using Owin;
 using Microsoft.Owin.Diagnostics;
+using System.Diagnostics;
 
 namespace OWINUseErrorPage
 {
     public class Startup
     {
+        [Conditional("DEBUG")]
+        public void UseErrorPage(IAppBuilder app)
+        {
+            app.UseErrorPage();
+        }
+
         public void Configuration(IAppBuilder app)
         {
-// useful usage as a suggestion
-//#if DEBUG
-            app.UseErrorPage();
-//#endif
+            UseErrorPage(app);
+
             WelcomePageOptions options = new WelcomePageOptions();
             options.Path = new PathString("/welcome");
             app.UseWelcomePage(options);
