@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureWorkerRoleOWINHost" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2013-10.2.2">
+  <Role name="WorkerRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=nancy;AccountKey=G2WkQ/19cDNGB/FF18W9jf7ChraxCdvQPZ4lYRLOOzxIQlX1pLnX+m8l/qZipz7Irp5kUCDhx6RMfjk2j83wuA==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
