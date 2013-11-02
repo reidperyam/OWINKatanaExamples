@@ -97,4 +97,6 @@ Requires Visual Studio 2013
 
 	https://github.com/NancyFx/Nancy/wiki/Hosting-nancy-with-owin#conditional-pass-through
 
+AzureWorkerRoleOWINHost (& WorkerRole1.csproj)
 
+	http://www.c-sharpcorner.com/UploadFile/4b0136/web-api-hosting-from-owin-with-windows-azure/
