@@ -2,6 +2,8 @@
 
 http://www.c-sharpcorner.com/UploadFile/4b0136/web-api-hosting-from-owin-with-windows-azure/
 
+This implementation doesn't use the web-api to host but rather owin self hosting (check the packages.config and "usings" to see)
+
 TO RUN THIS APPLICATION
 - use the Azure emulator - set this project as the default start up project in visual studio (right-click and select from the context menu)
 - you will have to be running visual studio in administrator mode (which might necessitate a restart of VS) in order to run the 
