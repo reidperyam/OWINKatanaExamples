@@ -5,7 +5,9 @@ using Owin;
 using Nancy;
 using Nancy.Conventions;
 using Nancy.Owin;
+using Nancy.Diagnostics;
 using System.Web.Http;
+using Microsoft.Owin.Extensions;
 
 [assembly: OwinStartup(typeof(BigKatana.Startup))]
 
@@ -26,6 +28,7 @@ namespace BigKatana
             {
                 options.Bootstrapper = new CustomBootstrapper();
             });
+            app.UseStageMarker(PipelineStage.MapHandler);
         }
 
         public class CustomBootstrapper : DefaultNancyBootstrapper
@@ -34,7 +37,14 @@ namespace BigKatana
             {
                 base.ConfigureConventions(nancyConventions);
 
+                StaticConfiguration.EnableRequestTracing = true;  
+
                 Conventions.StaticContentsConventions.Add(StaticContentConventionBuilder.AddDirectory("scripts", "Scripts"));
+            }
+
+            protected override DiagnosticsConfiguration DiagnosticsConfiguration
+            {
+                get { return new DiagnosticsConfiguration { Password = @"Artery22" }; }
             }
         }
     }
