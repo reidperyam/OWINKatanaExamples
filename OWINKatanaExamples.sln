@@ -52,6 +52,10 @@ Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureWorkerRoleOWINHost", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole1", "WorkerRole1\WorkerRole1.csproj", "{BDBAF819-E73D-4EE0-91F1-F1B53C62537C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_NancyAAD.Server", "21_NancyAAD.Server\21_NancyAAD.Server.csproj", "{5ED54E85-5C79-404E-9DD2-43DD5A6AB690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22_NancyAAD.Client", "22_NancyAAD.Client\22_NancyAAD.Client.csproj", "{B2A2F6DC-5607-4DFB-8A11-2043EB589D46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -142,6 +146,14 @@ Global
 		{BDBAF819-E73D-4EE0-91F1-F1B53C62537C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDBAF819-E73D-4EE0-91F1-F1B53C62537C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDBAF819-E73D-4EE0-91F1-F1B53C62537C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED54E85-5C79-404E-9DD2-43DD5A6AB690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED54E85-5C79-404E-9DD2-43DD5A6AB690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED54E85-5C79-404E-9DD2-43DD5A6AB690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED54E85-5C79-404E-9DD2-43DD5A6AB690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A2F6DC-5607-4DFB-8A11-2043EB589D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A2F6DC-5607-4DFB-8A11-2043EB589D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A2F6DC-5607-4DFB-8A11-2043EB589D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A2F6DC-5607-4DFB-8A11-2043EB589D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
