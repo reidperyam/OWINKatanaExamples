@@ -100,3 +100,11 @@ Requires Visual Studio 2013
 AzureWorkerRoleOWINHost (& WorkerRole1.csproj)
 
 	http://www.c-sharpcorner.com/UploadFile/4b0136/web-api-hosting-from-owin-with-windows-azure/
+
+21_NancyAAD.Server
+
+	http://goo.gl/LSoaMa
+
+22_NancyAAD.Client
+
+	http://goo.gl/LSoaMa
