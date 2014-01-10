@@ -15,7 +15,7 @@ namespace NancyAAD.Server
             app.UseWindowsAzureActiveDirectoryBearerAuthentication(
                         new WindowsAzureActiveDirectoryBearerAuthenticationOptions
                         {
-                            Audience = "https://SalesApplication.onmicrosoft.com/WebApplication1",
+                            Audience = "https://SalesApplication.onmicrosoft.com/NancyDemoServer",
                             Tenant = "SalesApplication.onmicrosoft.com"
                         })
                       .UseNancy();

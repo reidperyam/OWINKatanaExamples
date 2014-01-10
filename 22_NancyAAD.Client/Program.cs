@@ -30,9 +30,9 @@ namespace NancyAAD.Client
                 consoleKeyInfo = Console.ReadKey(true);
                 // get the access token
                 AuthenticationResult authenticationResult = authenticationContext.AcquireToken(
-                    "https://SalesApplication.onmicrosoft.com/WebApplication1",
-                    "5685ff14-3fb8-4785-a78e-6f81219b39f8",
-                    "https://SalesApplication.onmicrosoft.com/myWebAPItestclient");
+                    "https://SalesApplication.onmicrosoft.com/NancyDemoServer",
+                    "5461d04d-d248-47dd-8008-076458153331",
+                    "https://SalesApplication.onmicrosoft.com/nancyDemoNativeClient");
 
                 // invoke the Nancy API
                 var httpClient = new HttpClient();

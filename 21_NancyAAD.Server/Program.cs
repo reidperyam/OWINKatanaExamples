@@ -17,8 +17,8 @@ namespace NancyAAD.Server
         {
             using (WebApp.Start<Startup>("http://localhost:9000/"))
             {
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine("Nancy listening at http://localhost:9000/");
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("NancyDemoServer listening at http://localhost:9000/");
                 Console.WriteLine("Press ENTER to terminate");
                 Console.ReadLine();
             }
